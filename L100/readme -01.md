@@ -26,7 +26,7 @@ Azure's Computer Vision service gives you access to advanced algorithms that pro
 
 ## Instructions
 
-1. Open browser and navigate to https://test.contosotraders.com/
+1. Open browser and navigate to [https://contosotraders.com/](https://www.contosotraders.com/)
 
    ![image](https://user-images.githubusercontent.com/48020356/204910981-44806350-9b7d-4b88-95f4-0c3c08196430.png)
 
