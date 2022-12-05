@@ -18,12 +18,12 @@ In this lab, you will explore the Contoso traders application [https://contosotr
 
 For this we use the service called **Computer Vision**, an Azure AI that analyzes content in image and video.
 
-Azure's Computer Vision service gives you access to advanced algorithms that process images and return information based on the visual features you're interested in such as **Optical Character Recognition** (OCR), Image Analysis, Face Service and Spatial Analysis.
+Azure's Computer Vision service gives you access to advanced algorithms that process images and return information based on the visual features you're interested in such as **Optical Character Recognition (OCR**), **Image Analysis** , **Face Service** and **Spatial Analysis** .
 
 ## Requirements
 
 - Microsoft Azure Subscription with required permissions. You can [create one for free](https://azure.microsoft.com/en-us/free/ai/)
-- A resource for Cognitive Services
+- [A resource of Cognitive Services for Computer vision](https://portal.azure.com/#create/Microsoft.CognitiveServicesComputerVision)
 - [Vision Studio website](https://portal.vision.cognitive.azure.com/)
 
 ## Solution Architecture
@@ -124,11 +124,11 @@ Vision Studio provides you with a platform to try several service features and s
    
    ![image](https://user-images.githubusercontent.com/48020356/204954594-90143c0a-65c1-4155-9136-bb93ee57985a.png)
   
-9. Select Choose resource, then select an existing resource within your subscription. If you'd like to create a new one, select Create a new resource. 
+9. Select **Subscription** dropdown, and then select the available subscription and select an existing resource within your subscription under **Azure Resources** option. If you'd like to create a new one, select Create a new resource. 
  
    ![image](https://user-images.githubusercontent.com/48020356/205177896-bcad5c19-ef01-47e5-96ed-099bf95e3f58.png)
    
-1. Then enter information for your new resource, such as a name, location, and resource group.
+1. If selected *Create a new resource* then enter information for your new resource, such as a name, subscription, resource group, Cognitive service resource type, location and the pricing tier as the below and click **Create resource** .
 
    ![image](https://user-images.githubusercontent.com/83349577/205639512-bdbc8303-66fa-4341-96a2-d4e2ac920a84.png)
 
