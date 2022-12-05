@@ -75,4 +75,12 @@ Vision Studio provides you with a platform to try several service features and s
 
 12. Select an image from the available set, or upload your own.
 
-13. After you select your image, you'll see the detected tags appear in the output window along with their confidence scores. You can also select the JSON tab to see the JSON output that the API call returns.
+13. After you select your image, you'll see the detected tags appear in the output window along with their confidence scores.
+
+  ![image](https://user-images.githubusercontent.com/83349577/205631741-b8c58060-4ac2-4c1e-9354-5f0d15a6d27a.png)
+
+
+14. You can also select the JSON tab to see the JSON output that the API call returns.
+
+   ![image](https://user-images.githubusercontent.com/83349577/205631814-271fd174-d478-4bd6-9bd6-f0e5400f0d66.png)
+
