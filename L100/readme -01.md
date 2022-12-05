@@ -122,11 +122,15 @@ Vision Studio provides you with a platform to try several service features and s
    
    ![image](https://user-images.githubusercontent.com/48020356/204954594-90143c0a-65c1-4155-9136-bb93ee57985a.png)
   
-9. Select Choose resource, then select an existing resource within your subscription. If you'd like to create a new one, select Create a new resource. Then enter information for your new resource, such as a name, location, and resource group.
+9. Select Choose resource, then select an existing resource within your subscription. If you'd like to create a new one, select Create a new resource. 
  
    ![image](https://user-images.githubusercontent.com/48020356/205177896-bcad5c19-ef01-47e5-96ed-099bf95e3f58.png)
+   
+1. Then enter information for your new resource, such as a name, location, and resource group.
 
-10. Select **Create resource** and your resource will be created, and you'll be able to try Image Analysis offered by Vision Studio.
+   ![image](https://user-images.githubusercontent.com/83349577/205639512-bdbc8303-66fa-4341-96a2-d4e2ac920a84.png)
+
+10. Once the resource is created, you'll be able to try Image Analysis offered by Vision Studio.
 
     ![image](https://user-images.githubusercontent.com/48020356/205178332-d2cab5a3-e553-4910-91fe-5058bceae12c.png)
 
