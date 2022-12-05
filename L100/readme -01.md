@@ -47,6 +47,46 @@ Microservices are a popular architectural style for building applications that a
 
 ## Instructions
 
+1. Open browser, using a new tab navigate to `https://github.com/CloudLabs-AI/ContosoTraders` GitHub repository. This repository conatins all the neccessary files and documents which will guide you to host the contoso traders application from the scratch.
+
+   [![](media/ct1.png)](https://github.com/shivashant25/Demo-Docs/raw/main/media/ct1.png)
+
+1. Navigate to **github/workflows** folder, it contains the workflow YAML files using which you can the deployment resources. Please see the individual workflows for more information.
+
+   [![](media/ct2.png) ](https://github.com/shivashant25/Demo-Docs/raw/main/media/ct2.png)
+
+1. **Contoso-traders-infra-deployment.yml** will deploy the infrastructure into Azure which includes resource groups, resources, sets access policies to key vaults, and seeds the database from storage accounts into an Azure SQL database.
+
+   [![](media/ct3.png) ](https://github.com/shivashant25/Demo-Docs/raw/main/media/ct3.png)
+
+1. **contoso-traders-app-deployment.yml** deploys the application to Azure cloud. The application is configured to use the pre-deployed resources.
+
+   [![](media/ct4.png) ](https://github.com/shivashant25/Demo-Docs/raw/main/media/ct4.png)
+
+1. **contoso-traders-load-testing.yml** configures the load testing for the application.
+  
+   [![](media/ct5.png)](https://github.com/shivashant25/Demo-Docs/raw/main/media/ct5.png)
+
+1. The **docs** folder contains the deployment instruction files, which guide you to deploy the infrastructure and application.
+
+   [![](media/ct6.png)](https://github.com/shivashant25/Demo-Docs/raw/main/media/ct6.png)
+
+1. The **iac** folders contain the BICEP templates, which deploy the infrastructure needed for the application.
+
+   [![](media/ct7.png) ](https://github.com/shivashant25/Demo-Docs/raw/main/media/ct7.png)
+
+1. The **src** folder contains all the source code files related to backend APIs, UI, and other parts of the application.
+
+   [![](media/ct8.png)](https://github.com/shivashant25/Demo-Docs/raw/main/media/ct8.png)  
+
+1. The **tests** folder contains the files related to load testing.
+
+   [![](media/ct9.png) ](https://github.com/shivashant25/Demo-Docs/raw/main/media/ct9.png)  
+
+1. From the **code** tab, scroll down a little and you’ll find the **links (1)** to access the application. There are different links for test, production UI. You can also access the **deployment instructions (2)** files using the links provided in the documentation paragraph.
+
+   [![](media/ct10.png)](https://github.com/shivashant25/Demo-Docs/raw/main/media/ct10.png)  
+   
 1. Open browser and navigate to [https://contosotraders.com/](https://www.contosotraders.com/)
 
    ![image](https://user-images.githubusercontent.com/48020356/204910981-44806350-9b7d-4b88-95f4-0c3c08196430.png)
