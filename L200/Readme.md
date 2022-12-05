@@ -20,6 +20,8 @@ For this we use the service called **Computer Vision**, an Azure AI that analyze
 
 Azure's Computer Vision service gives you access to advanced algorithms that process images and return information based on the visual features you're interested in such as **Optical Character Recognition (OCR**), **Image Analysis** , **Face Service** and **Spatial Analysis** .
 
+With the Analyze Image API, Computer Vision can analyze the content type of images, indicating whether an image is clip art or a line drawing.
+
 ## Requirements
 
 - Microsoft Azure Subscription with required permissions. You can [create one for free](https://azure.microsoft.com/en-us/free/ai/)
@@ -95,19 +97,19 @@ Microservices are a popular architectural style for building applications that a
 
    In the webpage you will be able to see the ecommerce store with clsuter of electronic products such as Laptops, Xbox controllers, Desktops, mobile phones amd monitors of different brands. 
 
-2. Select the **Laptops** option from the list of Categories and observe the available laptops that can be purchased from the website in the product collection page and click on any product.
+1. Select the **Laptops** option from the list of Categories and observe the available laptops that can be purchased from the website in the product collection page and click on any product.
 
-3. Then you be redirected to the specific product details page and here you can type the delivery pincode for checking the delivery availability, then you can add the number of quantity and also either you can add the product to the bag for checkout or the selected product can be pushed to wishlist.
+1. Then you be redirected to the specific product details page and here you can type the delivery pincode for checking the delivery availability, then you can add the number of quantity and also either you can add the product to the bag for checkout or the selected product can be pushed to wishlist.
 
-3. Visit back to the **Homepage** for the special offers and recently added products, and also browse through the other product category for the newly launched and the available products.
+1. Visit back to the **Homepage** for the special offers and recently added products, and also browse through the other product category for the newly launched and the available products.
 
-4.  In the search bar of the application type **Laptop** and this will return with the list of Laptop available from the list of products available for purchase.
+1.  In the search bar of the application type **Laptop** and this will return with the list of Laptop available from the list of products available for purchase.
 
-5. Select the **SerachImage (1)** icon in the right of the serach bar and click on **Drag an image or upload a file (2)**.
+1. Select the **SerachImage (1)** icon in the right of the serach bar and click on **Drag an image or upload a file (2)**.
 
    ![image](https://user-images.githubusercontent.com/48020356/204916409-3c559023-64e1-4c7a-95d5-558a5743dbde.png)
    
-6. Either download an image from browser, and save it or select an locally existing image and click **Open**.
+1. Either download an image from browser, and save it or select an locally existing image and click **Open**.
 This will take you to the **Suggested Product list** page as per the image provided to search and you can select the prodcut you wish to buy from the application    from here.
 
    ![image](https://user-images.githubusercontent.com/48020356/204917533-db8beed3-29f5-4c34-9c4f-d35ffe8b906e.png)
@@ -120,11 +122,11 @@ This will take you to the **Suggested Product list** page as per the image provi
 **Vision Studio** is a set of UI-based tools that lets you explore, build, and integrate features from Azure Computer Vision.
 Vision Studio provides you with a platform to try several service features and sample their returned data in a quick, straightforward manner. Using Studio, you can   start experimenting with the services and learning what they offer without needing to write any code. Then, use the available client libraries and REST APIs to get   started embedding these services into your own applications.
 
-8. Sign in to Vision Studio from https://portal.vision.cognitive.azure.com/ with your Azure subscription and if it's your first time logging in, you'll see a popup window appear that prompts you to **Sign in to Azure** and then choose or create a Vision resource. You have the option to skip this step and do it later also.
+1. Sign in to Vision Studio from https://portal.vision.cognitive.azure.com/ with your Azure subscription and if it's your first time logging in, you'll see a popup window appear that prompts you to **Sign in to Azure** and then choose or create a Vision resource. You have the option to skip this step and do it later also.
    
    ![image](https://user-images.githubusercontent.com/48020356/204954594-90143c0a-65c1-4155-9136-bb93ee57985a.png)
   
-9. Select **Subscription** dropdown, and then select the available subscription and select an existing resource within your subscription under **Azure Resources** option. If you'd like to create a new one, select Create a new resource. 
+1. Select **Subscription** dropdown, and then select the available subscription and select an existing resource within your subscription under **Azure Resources** option. If you'd like to create a new one, select Create a new resource. 
  
    ![image](https://user-images.githubusercontent.com/48020356/205177896-bcad5c19-ef01-47e5-96ed-099bf95e3f58.png)
    
@@ -132,22 +134,22 @@ Vision Studio provides you with a platform to try several service features and s
 
    ![image](https://user-images.githubusercontent.com/83349577/205639512-bdbc8303-66fa-4341-96a2-d4e2ac920a84.png)
 
-10. Once the resource is created, you'll be able to try Image Analysis offered by Vision Studio.
+1. Once the resource is created, you'll be able to try Image Analysis offered by Vision Studio.
 
     ![image](https://user-images.githubusercontent.com/48020356/205178332-d2cab5a3-e553-4910-91fe-5058bceae12c.png)
 
-11. Select the Analyze images tab, and select panel titled** Extract common tags** from images.
+1. Select the Analyze images tab, and select panel titled** Extract common tags** from images.
 
     ![image](https://user-images.githubusercontent.com/48020356/205179384-90e35cd6-f5bd-4c71-9c08-d54e0a2055f3.png)    
 
-12. Select an image from the available set, or upload your own.
+1. Select an image from the available set, or upload your own.
 
-13. After you select your image, you'll see the detected tags appear in the output window along with their confidence scores.
+1. After you select your image, you'll see the detected tags appear in the output window along with their confidence scores.
 
   ![image](https://user-images.githubusercontent.com/83349577/205631741-b8c58060-4ac2-4c1e-9354-5f0d15a6d27a.png)
 
 
-14. You can also select the JSON tab to see the JSON output that the API call returns.
+1. You can also select the JSON tab to see the JSON output that the API call returns.
 
    ![image](https://user-images.githubusercontent.com/83349577/205631814-271fd174-d478-4bd6-9bd6-f0e5400f0d66.png)
 
@@ -155,22 +157,35 @@ Vision Studio provides you with a platform to try several service features and s
    
    Image Analysis offers the ability to extract text from images. **OCR** traditionally started as a machine-learning based technique for extracting text from in-the-wild and non-document images like product labels, user generated images, screenshots, street signs, and posters. For several scenarios that including running OCR on single images that are not text-heavy, you need a fast, synchronous API or service. This allows OCR to be embedded in near real-time user experiences to enrich content understanding and follow-up user actions with fast turn-around times.
    
-15. On **Vision Studio** page, navigate back to **Featured** tab and select **Extract Text from Image**.
+1. On **Vision Studio** page, navigate back to **Featured** tab and select **Extract Text from Image**.
 
     ![image](https://user-images.githubusercontent.com/83349577/205654069-13495462-c665-41cd-98e8-911842b4aa9a.png)
 
-16. Drag and drop any image which contains text, you'll see the detected text appear in the output window.
+1. Drag and drop any image which contains text, you'll see the detected text appear in the output window.
 
     ![image](https://user-images.githubusercontent.com/83349577/205656306-56226ce6-4ab1-453c-9655-4f44b6998612.png)
 
-17. You can also select the JSON tab to see the JSON output that the API call returns.
+1. You can also select the JSON tab to see the JSON output that the API call returns.
 
     ![image](https://user-images.githubusercontent.com/83349577/205656524-8c1b8f43-4854-4692-b81e-cd66f9e8087c.png)
 
-   Custom Vision is an image recognition service that lets you build, deploy, and improve your own image identification system. The service classifies images or detects objects in images based on their visual characteristics, allowing you to specify the categories to predict and example images for the system to learn from.
-   
-   
+    There are few key concepts to understand how the Image Analysis works on Azure, for example Image Analysis can return content tags for thousands of recognizable objects, living beings, scenery, and actions that appear in images.Tags are not organized as a taxonomy and do not have inheritance hierarchies. A collection of content tags forms the foundation for an image description displayed as human readable language formatted in complete sentences. When tags are ambiguous or not common knowledge, the API response provides hints to clarify the meaning of the tag in context of a known setting.
+
+After you upload an image or specify an image URL, the Analyze API can output tags based on the objects, living beings, and actions identified in the image. Tagging is not limited to the main subject, such as a person in the foreground, but also includes the setting (indoor or outdoor), furniture, tools, plants, animals, accessories, gadgets, and so on.
+
+Next one is that Computer Vision can analyze an image and generate a human-readable phrase that describes its contents. The algorithm returns several descriptions based on different visual features, and each description is given a confidence score. The final output is a list of descriptions ordered from highest to lowest confidence and this is called **Image description generation**.
+
+**Object detection** is similar to tagging, but the API returns the bounding box coordinates (in pixels) for each object found in the image. For example, if an image contains a dog, cat and person, the Detect operation will list those objects with their coordinates in the image. You can use this functionality to process the relationships between the objects in an image. It also lets you determine whether there are multiple instances of the same object in an image.
+
+The object detection function applies tags based on the objects or living things identified in the image. There is currently no formal relationship between the tagging taxonomy and the object detection taxonomy. At a conceptual level, the object detection function only finds objects and living things, while the tag function can also include contextual terms like "indoor", which can't be localized with bounding boxes.
+
+For more reference this link: ```https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/concept-categorizing-images```   
+
 ## Summary
 
 You have got an overview about the Contoso traders GitHub repostory, Contoso traders web app usage, and Computer Vision services.
 
+## Delete the resources
+1. Within the Azure portal, select Resource Groups on the left navigation.
+
+2. Delete the resource groups created by selecting them, followed by the Delete resource group button. You will need to confirm the name of the resource group to delete.
