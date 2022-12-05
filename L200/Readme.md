@@ -167,7 +167,9 @@ Vision Studio provides you with a platform to try several service features and s
 
     ![image](https://user-images.githubusercontent.com/83349577/205656524-8c1b8f43-4854-4692-b81e-cd66f9e8087c.png)
 
-18. 
+   Custom Vision is an image recognition service that lets you build, deploy, and improve your own image identification system. The service classifies images or detects objects in images based on their visual characteristics, allowing you to specify the categories to predict and example images for the system to learn from.
+   
+   
 ## Summary
 
 You have got an overview about the Contoso traders GitHub repostory, Contoso traders web app usage, and Computer Vision services.
