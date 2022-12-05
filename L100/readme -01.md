@@ -18,7 +18,7 @@ In this lab, you will explore the Contoso traders application [https://contosotr
 
 For this we use the service called **Computer Vision**, an Azure AI that analyzes content in image and video.
 
-Azure's Computer Vision service gives you access to advanced algorithms that process images and return information based on the visual features you're interested in such as **Optical Character Recognition** (OCR), Image Analysis, Face Service and Spatial Analysis.
+Azure's Computer Vision service gives you access to advanced algorithms that process images and return information based on the visual features you're interested in such as **Optical Character Recognition (OCR)**, **Image Analysis** , **Face Service** and **Spatial Analysis** .
 
 ## Requirements
 
