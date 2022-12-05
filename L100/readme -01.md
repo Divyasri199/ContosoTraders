@@ -93,19 +93,19 @@ Microservices are a popular architectural style for building applications that a
 
    In the webpage you will be able to see the ecommerce store with clsuter of electronic products such as Laptops, Xbox controllers, Desktops, mobile phones amd monitors of different brands. 
 
-2. Select the **Laptops** option from the list of Categories and observe the available laptops that can be purchased from the website in the product collection page and click on any product.
+1. Select the **Laptops** option from the list of Categories and observe the available laptops that can be purchased from the website in the product collection page and click on any product.
 
-3. Then you be redirected to the specific product details page and here you can type the delivery pincode for checking the delivery availability, then you can add the number of quantity and also either you can add the product to the bag for checkout or the selected product can be pushed to wishlist.
+1. Then you will be redirected to the specific product details page and here you can type the delivery pincode for checking the delivery availability, then you can add the number of quantity and finally you can add the product to the bag for checkout or the selected product can be pushed to wishlist.
 
-3. Visit back to the **Homepage** for the special offers and recently added products, and also browse through the other product category for the newly launched and the available products.
+1. Visit back to the **Homepage** for the special offers and recently added products, and also browse through the other product category for the newly launched and the available products.
 
-4.  In the search bar of the application type **Laptop** and this will return with the list of Laptop available from the list of products available for purchase.
+1.  In the search bar of the application type **Laptop** and this will return with the list of Laptop available from the list of products available for purchase.
 
-5. Select the **SerachImage (1)** icon in the right of the serach bar and click on **Drag an image or upload a file (2)**.
+1. Select the **SerachImage (1)** icon in the right of the serach bar and click on **Drag an image or upload a file (2)**.
 
    ![image](https://user-images.githubusercontent.com/48020356/204916409-3c559023-64e1-4c7a-95d5-558a5743dbde.png)
    
-6. Either download an image from browser, and save it or select an locally existing image and click **Open**.
+1. Either download an image from browser, and save it or select an locally existing image and click **Open**.
 This will take you to the **Suggested Product list** page as per the image provided to search and you can select the prodcut you wish to buy from the application    from here.
 
    ![image](https://user-images.githubusercontent.com/48020356/204917533-db8beed3-29f5-4c34-9c4f-d35ffe8b906e.png)
@@ -118,11 +118,11 @@ This will take you to the **Suggested Product list** page as per the image provi
 **Vision Studio** is a set of UI-based tools that lets you explore, build, and integrate features from Azure Computer Vision.
 Vision Studio provides you with a platform to try several service features and sample their returned data in a quick, straightforward manner. Using Studio, you can   start experimenting with the services and learning what they offer without needing to write any code. Then, use the available client libraries and REST APIs to get   started embedding these services into your own applications.
 
-8. Sign in to Vision Studio from https://portal.vision.cognitive.azure.com/ with your Azure subscription and if it's your first time logging in, you'll see a popup window appear that prompts you to **Sign in to Azure** and then choose or create a Vision resource. You have the option to skip this step and do it later also.
+1. Sign in to Vision Studio from https://portal.vision.cognitive.azure.com/ with your Azure subscription and if it's your first time logging in, you'll see a popup window appear that prompts you to **Sign in to Azure** and then choose or create a Vision resource. You have the option to skip this step and do it later also.
    
    ![image](https://user-images.githubusercontent.com/48020356/204954594-90143c0a-65c1-4155-9136-bb93ee57985a.png)
   
-9. Select Choose resource, then select an existing resource within your subscription. If you'd like to create a new one, select Create a new resource. 
+1. Select Choose resource, then select an existing resource within your subscription. If you'd like to create a new one, select Create a new resource. 
  
    ![image](https://user-images.githubusercontent.com/48020356/205177896-bcad5c19-ef01-47e5-96ed-099bf95e3f58.png)
    
@@ -130,25 +130,31 @@ Vision Studio provides you with a platform to try several service features and s
 
    ![image](https://user-images.githubusercontent.com/83349577/205639512-bdbc8303-66fa-4341-96a2-d4e2ac920a84.png)
 
-10. Once the resource is created, you'll be able to try Image Analysis offered by Vision Studio.
+1. Once the resource is created, you'll be able to try Image Analysis offered by Vision Studio.
 
     ![image](https://user-images.githubusercontent.com/48020356/205178332-d2cab5a3-e553-4910-91fe-5058bceae12c.png)
 
-11. Select the Analyze images tab, and select panel titled** Extract common tags** from images.
+1. Select the Analyze images tab, and select panel titled** Extract common tags** from images.
 
     ![image](https://user-images.githubusercontent.com/48020356/205179384-90e35cd6-f5bd-4c71-9c08-d54e0a2055f3.png)    
 
-12. Select an image from the available set, or upload your own.
+1. Select an image from the available set, or upload your own.
 
-13. After you select your image, you'll see the detected tags appear in the output window along with their confidence scores.
+1. After you select your image, you'll see the detected tags appear in the output window along with their confidence scores.
 
   ![image](https://user-images.githubusercontent.com/83349577/205631741-b8c58060-4ac2-4c1e-9354-5f0d15a6d27a.png)
 
 
-14. You can also select the JSON tab to see the JSON output that the API call returns.
+1. You can also select the JSON tab to see the JSON output that the API call returns.
 
    ![image](https://user-images.githubusercontent.com/83349577/205631814-271fd174-d478-4bd6-9bd6-f0e5400f0d66.png)
 
 ## Summary
 
 You have got an overview about the Contoso traders GitHub repostory, Contoso traders web app usage, and Computer Vision services.
+
+## Reference Links
+
+https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview <br> 
+https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview-image-analysis?tabs=3-2
+
