@@ -22,7 +22,9 @@ Azure's Computer Vision service gives you access to advanced algorithms that pro
 
 ## Requirements
 
-- Microsoft Azure Subscription with required permissions.
+- Microsoft Azure Subscription with required permissions. You can [create one for free](https://azure.microsoft.com/en-us/free/ai/)
+- A resource for Cognitive Services
+- [Vision Studio website](https://portal.vision.cognitive.azure.com/)
 
 ## Solution Architecture
 
