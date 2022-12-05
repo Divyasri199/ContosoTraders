@@ -34,7 +34,7 @@ Backend tier consists of 3 API components that are containerized.
 
 1. Shopping Cart: An Azure containerized app 
 2. Products & Inventory: Contains a Kubernetes cluster
-3. Image Search: Containerized app service.
+3. Image Search: Containerized app service
 
 The workflow named Contoso-traders-infra-provisioning.yml will invoke the Bicep template that deploys the ACI app and AKS cluster.
 
