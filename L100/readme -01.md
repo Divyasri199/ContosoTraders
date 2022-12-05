@@ -24,6 +24,27 @@ Azure's Computer Vision service gives you access to advanced algorithms that pro
 
 - Microsoft Azure Subscription with required permissions.
 
+## Solution Architecture
+
+Contoso Traders is a 2 tier application and consists of Client tier.
+
+Presentation tier conatins the React JS application that acts as a client, collects the the information given by the user and passes it to Database tier. It consists of a collection of small, autonomous services. Each service is self-contained and should implement a single business capability within a bounded context. A bounded context is a natural division within a business and provides an explicit boundary within which a domain model exists.
+
+Backend tier consists of 3 API components that are containerized.
+
+1. Shopping Cart: An Azure containerized app 
+2. Produtcs &Inventory: Contains a kubernetes cluster
+3. Image Search: Containerized app service.
+
+The workflow named Contoso-traders-infra-provisioning.yml will invoke the Bicep template that deploys the ACI app and AKS cluster.
+
+### MICROSERVICES
+
+Microservices are a popular architectural style for building applications that are resilient, highly scalable, independently deployable, and able to evolve quickly. 
+
+![](https://raw.githubusercontent.com/microsoft/ContosoTraders/main/docs/architecture/contoso-traders-enhancements.drawio.png)
+
+
 ## Instructions
 
 1. Open browser and navigate to [https://contosotraders.com/](https://www.contosotraders.com/)
