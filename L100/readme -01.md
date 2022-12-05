@@ -149,3 +149,6 @@ Vision Studio provides you with a platform to try several service features and s
 
    ![image](https://user-images.githubusercontent.com/83349577/205631814-271fd174-d478-4bd6-9bd6-f0e5400f0d66.png)
 
+## Summary
+
+You have got an overview about the Contoso traders GitHub repostory, Contoso traders web app usage, and Computer Vision services.
