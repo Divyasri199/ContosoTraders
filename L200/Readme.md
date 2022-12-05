@@ -151,6 +151,23 @@ Vision Studio provides you with a platform to try several service features and s
 
    ![image](https://user-images.githubusercontent.com/83349577/205631814-271fd174-d478-4bd6-9bd6-f0e5400f0d66.png)
 
+   You can analyze images to provide insights about their visual features and characteristics.
+   
+   Image Analysis offers the ability to extract text from images. **OCR** traditionally started as a machine-learning based technique for extracting text from in-the-wild and non-document images like product labels, user generated images, screenshots, street signs, and posters. For several scenarios that including running OCR on single images that are not text-heavy, you need a fast, synchronous API or service. This allows OCR to be embedded in near real-time user experiences to enrich content understanding and follow-up user actions with fast turn-around times.
+   
+15. On **Vision Studio** page, navigate back to **Featured** tab and select **Extract Text from Image**.
+
+    ![image](https://user-images.githubusercontent.com/83349577/205654069-13495462-c665-41cd-98e8-911842b4aa9a.png)
+
+16. Drag and drop any image which contains text, you'll see the detected text appear in the output window.
+
+    ![image](https://user-images.githubusercontent.com/83349577/205656306-56226ce6-4ab1-453c-9655-4f44b6998612.png)
+
+17. You can also select the JSON tab to see the JSON output that the API call returns.
+
+    ![image](https://user-images.githubusercontent.com/83349577/205656524-8c1b8f43-4854-4692-b81e-cd66f9e8087c.png)
+
+18. 
 ## Summary
 
 You have got an overview about the Contoso traders GitHub repostory, Contoso traders web app usage, and Computer Vision services.
